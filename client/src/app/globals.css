@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.form{
+  @apply flex  md:w-[450px] w-[350px] justify-center flex-col shadow-neutral-400 shadow-sm  px-10 md:py-16 py-12 md:space-y-10 space-y-6
+}
+
+
+.formHeader {
+  @apply md:text-[18px] font-bold text-neutral-500 text-center
+}
